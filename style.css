@@ -1,0 +1,78 @@
+body{
+	background-image:url(images/wallpaper.jpg);
+	align-content:center;
+	margin-left:auto;
+	margin-right:auto;
+ } /*body settings to center page, and a custom background*/
+
+h1{
+	font-style:italic;
+	text-align:center;
+	color:#003333; 
+} /*all first headings will be centered with and written in italics, with a text-color of dark teal*/
+
+h2{
+	font-style:initial;
+	color:#330066;
+} /*the second headings will have an initial font-style, and have a text-color of a purple color*/
+
+p{
+	color:#235B59;
+} /*the paragraphs will have a hex teal color*/
+
+.discription{
+	color:#235B59;
+} /*all discriptions will have the same color as the paragraphs*/
+
+ul{
+	display:block; 
+	padding:5px; 
+	list-style:none;
+	margin:2%;
+} /*the unordered list will be displayed in a block with a padding of 5px and a margin of 2%*/
+
+li{
+	display:inline-block;
+	background-color:black;
+	padding:3px;
+	border-radius:5px;
+} /*link lists will be displayed as a black with a padding of 3px and a border-radius of 5px*/
+
+
+.hv{
+	display:none;
+} /*display no information when the mouse is not hovered over the picture*/
+
+.hover:hover .hv{
+	display:block;
+	color:#235B59;
+} /*when the mouse hovers over the picture, the information will be displayed in a block with a text-color of dark teal*/
+
+img{
+	width:350px;
+	max-height:250px;
+} /*all images will have a width of 350px and a max height 250px*/
+
+.panel-body{
+	border:#D4AF37 dotted;
+	border-radius:10px;
+	background:#235B59;
+	padding:10px;
+} /*all panel-body classes will have a gold dotted border, with a radius of 10px, a dark teal background color and a 10px padding*/
+
+.form-group{
+	border:#235B59 dotted;
+	border-radius:10px;
+	background-color:#D4AF37;
+} /*all form-group classes will have a dark teal dotted border with a radius of 10px and a background color of gold*/ 
+
+.team{
+	border:#D4AF37 dotted;
+	border-radius:10px;
+	background:#235B59;
+	padding:10px;
+} /*all team classes will have the same sttings as the panel-body classes*/
+
+table:hover{
+	opacity:0.5
+} /*whenever the mouse hovers over the table it will be 50% dimmer*/
